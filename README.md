@@ -1,5 +1,5 @@
 # FYC-Terraform
-Déploiement d'un cluster AKS et registery Docker sur Azure avec Terraformm
+Déploiement d'un cluster AKS et un registery Docker sur Azure avec Terraform
 
 ### ModeOp : 
 * Renseigner les information d’authentification dans le fichier terraform.tfvars.
