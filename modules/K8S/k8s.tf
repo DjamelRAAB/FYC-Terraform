@@ -14,6 +14,12 @@ resource "azurerm_kubernetes_cluster" "fyc" {
     client_id     = var.client_id
     client_secret = var.client_secret
   }
+
+  addon_profile {
+    http_application_routing {
+      enabled = true
+    }
+  }
   
   tags = {
     Environment = "Production"
